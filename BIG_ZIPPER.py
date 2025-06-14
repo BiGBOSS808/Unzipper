@@ -20,10 +20,10 @@ def banner():
     clear()
     print(f"""
 {R}***********************************
-{G}*           BIGG BOSS          *
-{B}*       BIGG BOSS                      *
+{G}*           BiGbOss TEAM            *
+{B}*       BiG BOSS    *
 {P}*          ZIP CRACKER TOOL       *
-{C}*           Coded By Haider Ali          *
+{C}*           Coded By Haider Ali         *
 {R}***********************************
 {N}""")
 
@@ -33,10 +33,10 @@ def banner2():
 {Y}***************************************
 {G}* MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM     *
 {B}* M                             M     *
-{P}* M BIGG BOSS ZIP CRACKER TOOL        M     *
+{P}* M BiGBoSS ZIP CRACKER TOOL        M     *
 {C}* M                             M     *
 {R}* MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM     *
-{G}* {B}CODED BY Haider Ali{G}                        *
+{G}* {B}CODED BY HAIDER ALI{G}                        *
 {N}***************************************
 {N}""")
 
@@ -89,7 +89,10 @@ def crack_zip_wordlist(zip_file, wordlist):
     print(f"{R}\nPassword not found{N}")
 
 def main():
-   
+    banner()
+    print(f"{Y}THIS TOOL IS PAID AND IF YOU WANT TO USE IT FOR FREE THEN YOU HAVE TO SUBSCRIBE MY CHANNEL:{N}")
+    os.system("termux-open https://youtube.com/@jokingxxs?si=StPGfDFp5T1l6_CS")
+    time.sleep(5)
     clear()
     choice = banner2()
     zip_file = input(f"{Y}Enter ZIP file path: {N}")
@@ -97,14 +100,6 @@ def main():
         max_length = int(input(f"{G}Enter maximum password length: {N}"))
         crack_zip(zip_file, max_length)
     elif choice == '2':
-        wordlist = input(f"{B}Enter wordlist file path: {N}")
-        crack_zip_wordlist(zip_file, wordlist)
-    else:
-        print(f"{R}Invalid choice{N}")
-
-if __name__ == "__main__":
-    main()
-ce == '2':
         wordlist = input(f"{B}Enter wordlist file path: {N}")
         crack_zip_wordlist(zip_file, wordlist)
     else:
