@@ -30,13 +30,13 @@ def banner():
 def banner2():
     clear()
     print(f"""
-{Y}***************************************
-{G}* MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM     *
-{B}* M                             M     *
-{P}* M BiGBoSS ZIP CRACKER TOOL        M     *
-{C}* M                             M     *
-{R}* MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM     *
-{G}* {B}CODED BY HAIDER ALI{G}                        *
+{N}***************************************
+{G}* ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞     *
+{B}* B                             G     *
+{P}* I BiGBoSS ZIP CRACKER TOOL    I     *
+{C}* G                             B     *
+{Y}* ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞     *
+{G}* {R}CODED BY HAIDER ALI{G}           *
 {N}***************************************
 {N}""")
 
